@@ -6,7 +6,6 @@
     "@std/assert": "jsr:@std/assert@^1.0.11",
     "@std/testing": "jsr:@std/testing@^1.0.9",
     "hast-util-to-html": "npm:hast-util-to-html@^9.0.5",
-    "hast-util-to-text": "npm:hast-util-to-text@^4.0.2",
     "katex": "npm:katex@^0.16.21",
     "rehype-parse": "npm:rehype-parse@^9.0.1",
     "unified": "npm:unified@^11.0.5",

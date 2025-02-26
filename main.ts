@@ -3,15 +3,9 @@ import katex from "katex";
 import { visit } from "unist-util-visit";
 import { remove } from "unist-util-remove";
 import { removePosition } from "unist-util-remove-position";
-//import { toText } from "hast-util-to-text";
 import { toHtml } from "hast-util-to-html";
 import { unified } from "unified";
 import rehypeParse from "rehype-parse";
-//import parseCodeClass from '@blogkit/blog-components/src/lib/parse-code-class';
-//import path from 'path';
-//import fs from 'fs';
-//import { renderCode } from '@blogkit/tool-client';
-//import { setAttr } from '../util/mdx-ast';
 
 const parseHtml = unified().use(rehypeParse, { fragment: true });
 
