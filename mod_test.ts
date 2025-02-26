@@ -1,5 +1,5 @@
 import { assertSnapshot } from "@std/testing/snapshot";
-import { katexLumaRenderToString } from "./main.ts";
+import { katexLumaRenderToString } from "./mod.ts";
 
 Deno.test({
   name: "katexLumaRenderToStringTest",
