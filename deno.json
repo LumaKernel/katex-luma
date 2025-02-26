@@ -2,7 +2,7 @@
   "name": "@luma-dev/katex-luma",
   "version": "0.1.0",
   "license": "CC0-1.0",
-  "exports": "./mod.ts",
+  "exports": "./main.ts",
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
