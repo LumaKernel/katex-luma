@@ -34,15 +34,11 @@ export function katexLumaRenderToString(
     (htmlElem: any) => {
       const dataLoad = htmlElem?.properties?.dataLoad;
       if (typeof dataLoad !== "string") return;
-      htmlElem.type = "mdxJsxFlowElement";
-      htmlElem.name = "Load";
-      htmlElem.properties = {};
-      htmlElem.attributes = [
-        {
-          name: "w",
-          value: dataLoad,
-        },
-      ];
+      htmlElem.type = "element";
+      htmlElem.tagName = "Load";
+      htmlElem.properties = {
+        w: dataLoad,
+      };
     },
   );
   remove(html, (htmlElem: any) => {
